@@ -1,6 +1,6 @@
 # rpmQuickInstall
 
-This repository contains a script to compare one set of values from another.  
+This repository contains a script to perform an automated installation process for any and all installed packages on your device.
 This project is intended to be an easy way to practice coding while requiring little to no knowledge of programming.
 Check the [README.md](README.md) file for more information.
 
