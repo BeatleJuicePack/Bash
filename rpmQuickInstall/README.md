@@ -47,7 +47,7 @@ code of conduct, and the process for submitting pull requests to us.
 ## Authors
 
 * **BeatleJuice** - *Initial Work* - [BeatleJuicePack](https://github.com/BeatleJuicePack)
-See also the list of [contributors](https://github.com/BeatleJuicePack/rpmQuickInstall/contributors)
+See also the list of [contributors](https://github.com/BeatleJuicePack/rpmQuickInstall/CONTRIBUTORS.md)
 
 ## License
 
