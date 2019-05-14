@@ -1,12 +1,13 @@
 # gpuMonitor.sh
 
-This script is intended to monitor 3rd party Nvidia Graphics Drivers on Red Hat based Operating Systems.
+This script is intended to monitor 3rd party Nvidia Graphics Drivers on Red Hat based Operating Systems.  Refresh rate is 
+set to 10 seconds.
 
 ### Example installation
 
 Download the file "gpuMonitor.sh" from my repository and run the following commands:
-$ chmod +x ~/Downloads/gpuMonitor.sh
-$ source ~/Downloads/gpuMonitor.sh
+" $ chmod +x ~/Downloads/gpuMonitor.sh "
+" $ source ~/Downloads/gpuMonitor.sh "
 
 ## Contributing
 
