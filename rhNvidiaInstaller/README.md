@@ -12,9 +12,9 @@ script "nvidiaInstaller.sh".  This will install the necessary packages/dependenc
 nouveau drivers and reboot the system.
 
 ATTENTION: Once the script has finished you must still run "Nvidia-Linux...*.run".  This step is very simply performed by:
-1. Gaining root access and running the command:
+1. Gain root access then disable the graphical interface by running the command:
 2. " # init 3 "
-3. Again, gaining root access and running the command:
+3. Again, gain root access and run the command:
 ATTENTION: update your "Nvidia-Linux...*.run" path based on your download location and filename.  If you downloaded the file
 as a standard user with a username of "userName" then the location would be found in 
 "~userName/Downloads/Nvidia-Linux...*.run"
@@ -23,7 +23,7 @@ as a standard user with a username of "userName" then the location would be foun
 6. Reboot to finalize the process with the command:
 7. " # shutdown -r now "
 Note: It is normal for some graphical interfaces to display incorrectly or not at all. One such example is during the
-boot process where text and/or screen resolution may not fit your monitor properly. 
+boot process where text and/or screen resolution may not fit your monitor properly.
 
 ## Getting Started
 
