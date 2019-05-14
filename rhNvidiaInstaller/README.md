@@ -4,12 +4,13 @@ This script is intended to provide easy access to 3rd party Nvidia Graphics Driv
 
 ### Example installation
 
+Download the file "nvidiaInstaller.sh" from my repository.
+
 Download the appropriate "Nvidia-Linux...*.run" file (based on your graphics card) from Nvidia's website: 
 https://www.nvidia.com/Download/index.aspx?lang=en-us
 
-Once downloaded gain root access and begin the
-script "nvidiaInstaller.sh".  This will install the necessary packages/dependencies and modify your grub file to blacklist
-nouveau drivers and reboot the system.
+Once downloaded gain root access and begin the script by running the command " source nvidiaInstaller.sh".  This will install
+the necessary packages/dependencies and modify your grub file to blacklist nouveau drivers and reboot the system.
 
 ATTENTION: Once the script has finished you must still run "Nvidia-Linux...*.run".  This step is very simply performed by:
 1. Gain root access then disable the graphical interface by running the command:
