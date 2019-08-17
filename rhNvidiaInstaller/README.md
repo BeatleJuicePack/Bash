@@ -4,12 +4,12 @@ This script is intended to provide easy access to 3rd party Nvidia Graphics Driv
 
 ### Example installation
 
-Download the file "nvidiaInstaller.sh" from my repository.
+Download the file "nvidiaInstaller.sh" from my github repository.
 
 Download the appropriate "Nvidia-Linux...*.run" file (based on your graphics card) from Nvidia's website: 
 https://www.nvidia.com/Download/index.aspx?lang=en-us
 
-Once downloaded gain root access and begin the script by running the command " source nvidiaInstaller.sh".  This will install
+Once downloaded gain root access and begin the script by running the command, "source nvidiaInstaller.sh".  This will install
 the necessary packages/dependencies and modify your grub file to blacklist nouveau drivers and reboot the system.
 
 ATTENTION: Once the script has finished you must still run "Nvidia-Linux...*.run".  This step is very simply performed by:
@@ -25,6 +25,14 @@ as a standard user with a username of "userName" then the location would be foun
 7. " # shutdown -r now "
 Note: It is normal for some graphical interfaces to display incorrectly or not at all. One such example is during the
 boot process where text and/or screen resolution may not fit your monitor properly.
+
+**Notes:
+1. If nouveau fails to blacklist one potential solution exists to manually input the following values into the correct locations.
+     - Create the file, "blacklist.conf", in the directory, "/etc/modprobe.d".
+     - Input the following text on line 1, "blacklist nouveau", then save the file.
+     - Navigate to the directory, "/etc/default", and open the file, "grub", using a text editor.
+     - Input the following text onto the end of line 6, "rd.blacklist=nouveau",  normally this would look like the example "GRUB_CMDLINE_LINUX="rd.lvm... rhgb ... rdblacklist=nouveau"
+     - Once the 2 files have been modified, re-run the nvidiaInstaller.sh script and proceed to the steps listed directly above.
 
 ## Getting Started
 
