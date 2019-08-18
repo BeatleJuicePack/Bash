@@ -26,4 +26,6 @@ yum install -y kernel-devel
 yum install -y epel-release
 yum install -y dkms
 sed '6s/$/ "modprobe.blacklist=nouveau"/' /etc/default/grub
+grub2-mkconfig -o /boot/grub2/grub.cfg
+grub2-mkconfig -o /boot/efi/EFI/centos/grub.cfg
 reboot
