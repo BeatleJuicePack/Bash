@@ -25,3 +25,8 @@ sed 's/$/ > /' nolast.txt > nolast2.txt
 awk '{ print $0, NR }' nolast2.txt >> nolast3.txt
 sed 's/$/image.jpg /' nolast3.txt >> curl_Scraper.sh
 rm nolast.txt nolast2.txt nolast3.txt
+chmod +x curl_Scraper.sh
+source curl_Scraper.sh
+rm curl_Scraper.sh
+printf "%s\n" "Known Text Files: "
+find . -type f -exec grep -Iq . {} \; -print
