@@ -23,7 +23,8 @@ Knowledge of cli.
 
 ## Issues
 
-1. Unknown issues.
+1. Some file are mislabeled upon saving and must be manually removed from your dataset.
+2. Unknown Issues.
 
 ## Contributing
 
