@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ################################################################################
-##   rpmQuickInstall - Bash                                                   ##
+##   curlScraper - Bash                                                       ##
 ##   August 2019 BeatleJuice - BeatleJuicePack                                ##
 ##   https://beatlejuicepack.com/                                             ##
 ##   https://github.com/BeatleJuicePack                                       ##
