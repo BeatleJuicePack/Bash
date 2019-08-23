@@ -13,6 +13,7 @@ Check the [README.md](README.md) file for more information.
 5. Clone/download the files into your /Downloads/ directory then run the script using the bash command:
 
 $ chmod +x ~/Downloads/rpmQuickInstall/curlScraper.sh
+
 $ source ~/Downloads/curlScraper.sh
 
 
