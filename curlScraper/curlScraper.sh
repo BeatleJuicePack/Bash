@@ -29,4 +29,4 @@ chmod +x curl_Scraper.sh
 source curl_Scraper.sh
 rm curl_Scraper.sh
 printf "%s\n" "Known 0 Byte Files Within ~/Downloads/curl/: "
-find ~/Downloads/curl/ -type f -size 0
+find . -type f -size 0
