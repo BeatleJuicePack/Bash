@@ -9,13 +9,16 @@ Check the [README.md](README.md) file for more information.
 1. Go to your preferred search engine and find your desired set of images (example: Cats).  
 2. Using developer mode search img and use the filter "images?q=" then select "copy all as curl".
 3. Open your preferred text editor (example: nano or vim) and paste everything into the file.
-4. Save the file as "curlfile.txt" and place into an appropriate directory (example: ~/Downloads/curlScraper/Cats/curlfile.txt).
+4. Save the file as "curlfile.txt" and place into an appropriate directory (example: ~/Downloads/curl/Cats/curlfile.txt).
 5. Clone/download the files into your /Downloads/ directory then run the script using the bash command:
 
-$ chmod +x ~/Downloads/rpmQuickInstall/curlScraper.sh
+$ chmod +x ~/Downloads/curl/curlScraper.sh
 
-$ source ~/Downloads/curlScraper.sh
+$ source ~/Downloads/curl/curlScraper.sh
 
+**Optional: Specify a new directory at the end of the script and use the command to delete the 0 byte files:
+
+$ find ~/"path"/ -type f -size 0 delete
 
 ### Prerequisites
 
