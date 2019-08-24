@@ -18,7 +18,7 @@ $ source ~/Downloads/curl/curlScraper.sh
 
 **Optional: Specify a new directory at the end of the script and use the command to delete the 0 byte files:
 
-$ find ~/"path"/ -type f -size 0 delete
+$ find . -type f -size 0 delete
 
 ### Prerequisites
 
